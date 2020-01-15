@@ -57,7 +57,9 @@
                                     {{ __('Login') }}
                                 </button>
 
-                                <a href="/login/facebook" class="btn btn-primary"><i class="fab fa-facebook-f"></i>Sign in with Facebook</a>
+                                <a href="/login/facebook" class="btn btn-primary">Sign in with Facebook</a>
+
+                                <a href="/login/google" class="btn btn-success">Sign in with Google</a>
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
